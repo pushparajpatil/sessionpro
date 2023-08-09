@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>age registration form</title>
+</head>
+<body>
+    <h1>age Registarion form</h1>
+    <form action="/gf">
+        {{form.as_p}}
+        {% csrf_token %}
+        <input type="submit" name="name" value="submit age">
+    </form>
+</body>
+</html>
